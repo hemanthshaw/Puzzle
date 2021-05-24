@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android1:background="@drawable/back3" >
+     <TextView 
+         android1:layout_width="wrap_content"
+              android1:layout_height="wrap_content"
+              android:text=""
+              android:textColor="#ffffff"
+              android:typeface="serif"
+              android:padding="20dp"/>
+    
+     <SeekBar
+            android:id="@+id/songProgressBar2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginBottom="100dp"
+             android:layout_marginTop="100dp"
+             
+            
+             android:thumb="@drawable/seek_handler"
+             android:progressDrawable="@drawable/seekbar_progress"
+             />
+
+          <Button
+              android1:id="@+id/ans21"
+              android1:layout_width="fill_parent"
+              android1:layout_height="wrap_content"
+              android1:layout_below="@+id/songProgressBar2"
+              android1:layout_centerHorizontal="true"
+              android1:onClick="ans1click"
+              android1:padding="10dp" />
+
+          <Button
+              android1:id="@+id/ans22"
+              android1:layout_width="fill_parent"
+              android1:layout_height="wrap_content"
+             android1:layout_centerHorizontal="true"
+              android1:layout_below="@+id/ans21"
+              android1:onClick="ans2click"
+              android1:padding="10dp" />
+
+          <Button
+              android1:id="@+id/ans23"
+              android1:layout_width="fill_parent"
+              android1:layout_height="wrap_content"
+            android1:layout_centerHorizontal="true"
+              android1:layout_below="@+id/ans22"
+              android1:onClick="ans3click"
+              android1:padding="10dp" />
+
+          <Button
+              android1:id="@+id/ans24"
+              android1:layout_width="fill_parent"
+              android1:layout_height="wrap_content"
+             android1:layout_centerHorizontal="true"
+              android1:layout_below="@+id/ans23"
+              android1:onClick="ans4click"
+              android1:padding="10dp" />
+
+</RelativeLayout>

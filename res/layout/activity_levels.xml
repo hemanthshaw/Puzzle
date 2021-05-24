@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+ 
+   
+   >
+
+    <Button
+        android:id="@+id/level1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="level1click"
+        android:padding="10dp"
+        android:text="Level1" />
+
+    <Button
+        android:id="@+id/level2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/level1"
+        android:layout_below="@+id/level1"
+        android:layout_marginTop="49dp"
+        android:onClick="level2click"
+        android:padding="10dp"
+        android:text="Level2" />
+
+</RelativeLayout>
